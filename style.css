@@ -1,4 +1,86 @@
 /* Type your code here */
+  *
+  {
+	  padding: 5px;
+	  margin: 3px;
+  }
+  body {
+	font-family: Nunito Sans;
+	
+  }
+
+.container {
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 900px ;
+	margin-left: 70px;
+  }
+
+
+#logo{
+	margin: 20px;
+	margin-right: 85px;
+}
+h1,
+h3,
+table {
+  margin: 10px 20px;
+  text-align: left;
+}
+
+.head h1,h3{
+	color: black;
+}
+
+.head h1{
+	font-size: 50px;
+	font-weight: bolder ;
+	text-shadow: 0 2px 5px rgb(104, 104, 104);
+}
+.head h3{
+	color: rgb(105, 105, 105);
+}
+table {
+	border-collapse: collapse;
+	width: 1000px;
+		
+  }
+  
+  tr {
+	background: white;
+	border-bottom: 2px solid lightgray;
+  }
+
+  td {
+	padding: 10px 15px;
+  }
+
+  #line1{
+	  background-color: orangered;
+	  color: white;
+	  
+  }
+
+  #line2 {
+	border-bottom: 2px solid lightgray;
+    font-weight: bold;
+  }
+
+  td:nth-child(2) {
+	color: rgb(105, 105, 105);
+	
+  }
+td:nth-child(3) {
+	font-weight: bold;
+  }
+
+a{
+	text-decoration: none;
+    columns: purple;
+}
+
+ 
 
 
 /* change the font family and spacing as per your project font */
